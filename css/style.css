@@ -1,0 +1,80 @@
+html
+{
+    background-color: rgb(51, 51, 51);
+    color: seashell;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#texte
+{
+    margin-right: 10px;
+    width: 250px;
+    display: flex;
+    align-content: flex-end;
+    align-self: flex-end;
+}
+
+#grille
+{
+    display: grid;
+    grid-template-columns: unset;
+    grid-template-rows: unset;
+    border: rgb(44, 44, 44) solid 12px;
+    border-radius: 12px;
+}
+
+.mur
+{
+    background-color: rgb(91, 91, 241);
+/*background-image: url(../img/mur.gif);*/
+z-index: 0;
+}
+
+.sol
+{
+background-image: url(../img/sol.gif);
+z-index: 0;
+}
+
+.bonbon
+{
+background-image: url(../img/bonbon.gif);
+z-index: 0;
+}
+
+.pacman
+{
+    background-image: url(../img/pacman4.gif);
+    z-index: 1;
+}
+
+.fantomebleu
+{
+    background-image: url(../img/fantome_bleu1.gif);
+    z-index: 1;
+}
+
+.fantomerouge
+{
+    background-image: url(../img/fantome_rouge1.gif);
+    z-index: 1;
+}
+
+.fantomeorange
+{
+    background-image: url(../img/fantome_orange1.gif);
+    z-index: 1;
+}
+
+.fantomevert
+{
+    background-image: url(../img/fantome_vert1.gif);
+    z-index: 1;
+}
